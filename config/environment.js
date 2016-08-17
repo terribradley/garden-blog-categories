@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+      apiKey: "AIzaSyCOW3dvUlftF1FEDcFM8xyd76JpG2Rj1Ds",
+      authDomain: "garden-blog.firebaseapp.com",
+      databaseURL: "https://garden-blog.firebaseio.com",
+      storageBucket: "garden-blog.appspot.com",  
+    },
     modulePrefix: 'blog',
     environment: environment,
     baseURL: '/',

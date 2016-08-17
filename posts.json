@@ -1,0 +1,25 @@
+{ "posts": [{
+    "image": "hi",
+    "title": "Summer Veggies",
+    "author": "Terri Bradley",
+    "date": "8/17/2016",
+    "category": "Vegetables",
+    "story": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+
+    }, {
+      "image": "hi",
+      "title": "Summer Flowers",
+      "author": "Alan Denison",
+      "date": "8/11/2016",
+      "category": "Flora",
+      "story": " flowers are nice"
+
+    }, {
+      "image": "hi",
+      "title": "Starting Your First Vegetable Garden",
+      "author":"Bob Ross",
+      "date": "6/20/2011",
+      "category": "Vegetables",
+      "story": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit."
+      }]
+}
