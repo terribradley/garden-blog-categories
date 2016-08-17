@@ -1,1 +1,6 @@
 <h1>Gardener Blog</h1>
+{{#each model as |post|}}
+<div class="post-tile">
+  {{post-tile post=post}}
+</div>
+{{/each}}

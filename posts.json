@@ -1,5 +1,5 @@
 { "posts": [{
-    "image": "hi",
+    "image": "img/summerveggies.jpg",
     "title": "Summer Veggies",
     "author": "Terri Bradley",
     "date": "8/17/2016",
@@ -7,7 +7,7 @@
     "story": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
 
     }, {
-      "image": "hi",
+      "image": "img/summerflowers.jpg",
       "title": "Summer Flowers",
       "author": "Alan Denison",
       "date": "8/11/2016",
@@ -15,7 +15,7 @@
       "story": " flowers are nice"
 
     }, {
-      "image": "hi",
+      "image": "img/summergarden.jpg",
       "title": "Starting Your First Vegetable Garden",
       "author":"Bob Ross",
       "date": "6/20/2011",
