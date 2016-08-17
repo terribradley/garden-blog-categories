@@ -17,9 +17,8 @@ export default Ember.Route.extend({
       post.set(key,params[key]);
       }
      });
-      console.log(post);
       post.save();
-      this.transitionTo('admin');
+      this.transitionTo('index');
     },
 
     destroyPost(post) {
