@@ -1,17 +1,16 @@
 <nav>
   <p>
-    logo
+    {{#link-to 'index'}}<img src="img/logo.png" alt="logo" />{{/link-to}}
   </p>
   <ul>
     <li>{{#link-to 'about'}}About{{/link-to}}</li>
     <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
-    <li>{{#link-to 'index'}}Home{{/link-to}}</li>
-    <li>{{#link-to 'admin'}}admin{{/link-to}}</li>
+    <li>{{#link-to 'admin'}}Admin{{/link-to}}</li>
   </ul>
 </nav>
 <header>
   <h1>Gardenbox Blog</h1>
 </header>
 <div class="wrapper">
-  {{outlet}}  
+  {{outlet}}
 </div>

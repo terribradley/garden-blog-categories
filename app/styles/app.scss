@@ -1,17 +1,31 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+body {
+  background-color: #D5E8E6;
+  font-family: 'Oswald', sans-serif;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   padding-left: 50px;
   padding-right: 50px;
+  background-color: #086E62;
   ul {
     display: flex;
     li {
       margin-right: 10px;
+      margin-top: 15px;
       list-style-type: none;
     }
+    a {
+      text-decoration: none;
+      color: #D5E8E6;
+    }
+  }
+  img {
+    width: 70%;
   }
 }
-
 header  {
   display: flex;
   justify-content: center;
@@ -30,7 +44,6 @@ header  {
   .post-tile {
     position: relative;
     margin-top: 5%;
-  // .ember-view {
     h1 {
       position: absolute;
       width: 40%;
@@ -39,9 +52,8 @@ header  {
       font-size: 2em;
       color: black;
       text-align: center;
-      background-color: transparentize(white, .3);
+      background-color: transparentize(#D5E8E6, .3);
       padding: 20px;
-
     }
     a {
       text-decoration: none;
@@ -57,6 +69,20 @@ header  {
       padding: 0 70px;
       border-bottom: 1px solid grey;
     }
-  // }
-}
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    p {
+      margin: 2px;
+      &:nth-of-type(3) {
+        margin-bottom: 5%;
+      }
+    }
+  }
 }
