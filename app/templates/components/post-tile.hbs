@@ -1,8 +1,7 @@
 {{#link-to 'post' post.id }}<h1>{{post.title}}</h1>
 <img src={{post.image}}/>{{/link-to}}
-<p>
-  by {{post.author}}
-</p>
-<p>
-  {{post.date}}
-</p>
+<div class="author">
+  <p>by {{post.author}}</p>
+  <p>{{post.date}}</p>
+
+</div>

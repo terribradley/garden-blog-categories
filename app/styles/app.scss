@@ -11,3 +11,52 @@ nav {
     }
   }
 }
+
+header  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  margin-bottom: 10%;
+  h1 {
+    color: white;
+  }
+}
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+  .post-tile {
+    position: relative;
+    margin-top: 5%;
+  // .ember-view {
+    h1 {
+      position: absolute;
+      width: 40%;
+      top: 30%;
+      left: 25%;
+      font-size: 2em;
+      color: black;
+      text-align: center;
+      background-color: transparentize(white, .3);
+      padding: 20px;
+
+    }
+    a {
+      text-decoration: none;
+      letter-spacing: 2px;
+    }
+    img {
+      width: 100%;
+
+    }
+    .author {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 70px;
+      border-bottom: 1px solid grey;
+    }
+  // }
+}
+}

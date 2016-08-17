@@ -1,0 +1,12 @@
+<h1>Admin</h1>
+<ul>
+  {{#each model as |post|}}
+    <li>{{post.title}}</li>
+    <button {{action 'destroyPost' post}}>Delete</button>
+    <h1>Update your Blog Posts</h1>
+    {{update-post post=post update="update"}}
+  {{/each}}
+</ul>
+
+<h1>Add a Post</h1>
+{{new-post save2="save3"}}
