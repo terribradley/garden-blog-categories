@@ -7,3 +7,10 @@
     <p>{{model.category}}</p>
     <p>{{model.story}}</p>
   </section>
+  {{new-comment save2="save3" post=model}}
+  
+  <ul>
+    {{#each model.comments as |comment|}}
+      {{comment-tile comment=comment}}
+    {{/each}}
+  </ul>
