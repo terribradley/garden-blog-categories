@@ -1,12 +1,10 @@
 <h1>Admin</h1>
 <ul>
-  {{#each model as |post|}}
-    <li>{{post.title}}</li>
-    <button {{action 'destroyPost' post}}>Delete</button>
-    {{update-post post=post update="update"}}
+  {{#each model as |category|}}
+  {{category-tile category=category}}
+  <!-- {{update-category category=category update="update"}} -->
 
   {{/each}}
 </ul>
 
-<h1>Add a Post</h1>
-{{new-post save2="save3"}}
+{{new-category save2="save3"}}
